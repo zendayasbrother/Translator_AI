@@ -3,7 +3,6 @@ import re
 from langdetect import detect
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import torch
-from datacleanse import DataCleaner
 
 # Updated translator code
 class Translator:
