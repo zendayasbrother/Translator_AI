@@ -24,7 +24,7 @@ class Translator:
         }
 
     def detect_language(self, text):
-        """Detects language with fallback to English for non-alpha strings."""
+        # Detects language with fallback to English for non-alpha strings.
         try:
             if not text or not any(char.isalpha() for char in text):
                 return "en"
